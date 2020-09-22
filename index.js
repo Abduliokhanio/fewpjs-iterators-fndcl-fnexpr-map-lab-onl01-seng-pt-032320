@@ -14,3 +14,7 @@ const tutorials = [
 const titleCased = () => {
   return tutorials
 }
+
+let titleCased = tutorials.map(function(text) {
+  return text,titleCased;
+});
